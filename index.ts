@@ -1,3 +1,6 @@
+#! /usr/bin/env node
+//Shebang statement above, which tells the node, this file will run directly
+
 import inquirer from "inquirer";
 
 const _prompt = await inquirer.prompt([
